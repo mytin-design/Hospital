@@ -1,0 +1,178 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Articles</title>
+
+<style>
+html {
+    background-color: aliceblue;
+}
+.upper {
+    text-transform: uppercase;
+
+}
+
+.bold {
+    font-weight: bold;
+}
+.art-bx {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 1pc;
+}
+
+.art-bx-bx {
+    display: flex;
+    flex-flow: column;
+    gap: 1pc;
+    background-color: #fff;
+    cursor: default;
+}
+
+.art-bx-bx:hover {
+    box-shadow: 0pc 0pc .666pc .666pc #eee;
+}
+
+.art-bx-title, .art-bx-ds {
+
+    margin-left: 10pc;
+    font-size: .9rem;
+    width: 6pc;
+    
+}
+
+.art-bx-title {
+    margin-top: 3pc;
+    color: rgb(0, 38, 255);
+    width: 10pc;
+}
+
+.art-bx-img {
+    width: 100%;
+    height: 12pc;
+}
+
+.art-ps-ab {
+    
+    display: flex;
+    flex-flow: column;
+    gap: .5pc;
+    align-items: start;
+    font-size: .6rem;
+    color: white;
+}
+
+
+.art-bx-one {
+    position: absolute;
+    top: 25%;
+    left: 28%;
+}
+
+.art-bx-two {
+    position: absolute;
+    top: 25%;
+    left: 53%;
+}
+
+.art-bx-three {
+    position: absolute;
+    top: 25%;
+    left: 78%;
+}
+.ps-ab-title {
+    margin-left: 1pc;
+}
+
+.ps-ab-dat {
+    padding: .5pc 1pc .5pc 1pc;
+    border-radius: 1pc;
+    background-color: rgb(0, 89, 255);
+    color: white;
+}
+
+.art-bx-in-ds {
+    margin: 0 auto;
+    width: 80%;
+    padding: 1pc;
+}
+
+.art-bx-acts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: .7rem;
+}
+    </style>
+</head>
+<body>
+    <div class="art-bx">
+        <div class="art-bx-bx">
+           <span class="art-bx-title upper">Latest News</span> 
+           <span class="art-bx-ds">Upcoming events and news about AOA.</span>
+        </div>
+
+        <div class="art-bx-bx ">
+            <img src="./../../blog14.jpg" width="50" alt="AOA Image" class="art-bx-img">
+            <div class="art-ps-ab art-bx-one">
+                <span class="ps-ab-title upper">News</span>
+                
+                <span class="ps-ab-dat">Aug 15 2022</span>
+            </div>
+            <div class="art-bx-in-ds">
+                <p class="art-ds-title bold">Close encounter: 
+                    Delivering medication to the surface of the
+                </p>
+                <p class="art-ds-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio at exercitationem excepturi soluta esse vel.</p>
+
+                <div class="art-bx-acts">
+                    <a href="#" class="art-bx-ln upper">Read More</a>
+                    <a href="#" class="art-bx-lna">&HorizontalLine;&RightArrow;</a>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="art-bx-bx " >
+            <img src="./../../abst1_slash.jpg" width="50" alt="AOA Image" class="art-bx-img">
+            <div class="art-ps-ab art-bx-two">
+                <span class="ps-ab-title upper">Event</span>
+                <span class="ps-ab-dat">Jan 15 2023</span>
+            </div>
+            <div class="art-bx-in-ds">
+                <p class="art-ds-title bold">Doctors step up and tell FTC to abandon contact lens
+                    
+                </p>
+                <p class="art-ds-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio at exercitationem excepturi soluta esse vel.</p>
+                <div class="art-bx-acts">
+                    <a href="#" class="art-bx-ln upper">Read More</a>
+                    <a href="#" class="art-bx-lna">&HorizontalLine;&rightarrow;</a>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="art-bx-bx ">
+            <img src="./../../abst3_slash.jpg" width="50" alt="AOA Image" class="art-bx-img">
+            <div class="art-ps-ab art-bx-three">
+                <span class="ps-ab-title upper">News</span>
+                <span class="ps-ab-dat">Sep 15 2022</span>
+            </div>
+            <div class="art-bx-in-ds">
+                <p class="art-ds-title bold">Genetically predisposed?: 
+                    Delivering medication to the surface of the
+                </p>
+                <p class="art-ds-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio at exercitationem excepturi soluta esse vel.</p>
+                <div class="art-bx-acts">
+                    <a href="#" class="art-bx-ln upper">Read More</a>
+                    <a href="#" class="art-bx-lna">&HorizontalLine;&rightarrow;</a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>

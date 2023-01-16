@@ -1,0 +1,94 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Call box</title>
+    <style>
+.call-bx {
+    margin: 5pc auto;
+    width: 95%;
+    border-radius: 5pc;
+    box-shadow: 0pc 1pc 1pc 0.66pc #eee;
+    font-size: .6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1pc;
+    padding: 1pc;
+
+}
+
+strong {
+    font-weight: bolder;
+}
+
+#formId, input {
+    border: none;
+    outline: none;
+}
+
+#formId {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1pc;
+}
+
+.fld {
+    display: flex;
+    flex-flow: column;
+    align-items: start;
+    border-radius: 1pc;
+    border: .1pc solid rgb(44, 165, 165);
+
+}
+
+#submitbtn {
+    padding: .6pc 1pc .6pc 1pc;
+    border-radius: 1pc;
+    background: linear-gradient(90deg,  rgba(13, 13, 228, 0.897), rgba(110, 110, 250, 0.589));
+    box-shadow: 0pc .1pc .5pc 0.1pc rgba(0, 0, 255, 0.178);
+    color: white;
+}
+
+::placeholder {
+    font-weight: bold;
+}
+
+
+/*
+input[placeholder="8273819"]:focus, input[placeholder="10 Miles"]:focus {
+    color: white;
+}
+*/
+
+
+.ad-src {
+    color: #000;
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="call-bx">
+        <div class="doc-find">
+            <p class="d-c"><strong>FIND A DOCTOR</strong></p>
+            <p class="df-">Lorem ipsum dolor sit.</p>
+        </div>
+        <form action="#" id="formId">
+            <fieldset class="fld">
+                <legend>Enter Zip Code Here</legend>
+                <input type="text" id="zip" name="zip" placeholder="8273819">
+            </fieldset>
+            <fieldset class="fld">
+                <legend>Distance in Miles</legend>
+                <input type="text" id="miles" name="miles" placeholder="10 Miles">
+            </fieldset>
+            <input type="submit" id="submitbtn" value="Search" name="">
+            <a href="#" class="ad-src">Advanced Search</a>
+        </form>
+    </div>
+</body>
+</html>
